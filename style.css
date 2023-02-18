@@ -262,3 +262,107 @@ footer{
 }
 
 
+/* ------------media uery--- */
+@media screen and (max-width:680px){
+    .header {
+    padding: 25px 30px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .menu a {    
+    margin-right: 20px;
+}   
+    .banner-img img {
+    width: 100%;
+    }
+
+    .quick-list {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    }
+
+    .quick-list-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: 5px;
+    }
+    .quick-list-img img {
+    height: 150px;
+    width: 150px;
+    }
+    .quick-list {
+        margin: 35px 20px;
+    padding: 10px 20px;
+    border: rgb(255, 203, 105) solid 1px;
+    
+    }
+    .features {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 20px;
+    
+    }
+    .features-img img {
+        width: 100%;
+        height: auto;
+    }
+    .features-txt {
+        margin: 10px 20px;
+    }
+    .facts {
+        margin: 25px 20px;
+        text-align: center;
+    }
+    .fact-carts {
+        margin: 80px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .fact-cart {
+        padding: 30px 25px;
+        width: 280px;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .sponsors {
+        margin: 35px 10px;
+        
+    }
+    .logo img{
+        height: 30;
+        margin-bottom: 20px;
+    }
+    .feedback {
+        margin: 10px;
+        background-color: rgba(233, 244, 253, 0.657);
+        padding: 25px 20px 0;
+    }
+    .feedback textarea {
+        width: 100%;
+    }
+    .feedback button{
+        margin-top: 50px;
+        margin-left: 0;
+        
+    }
+    footer{
+        padding: 15px 10px;
+        margin: 50px 0 0 0;
+        font-size: 12px;
+    }
+    /* .first-hr{
+        height: 1px;
+        background-color: rgb(255, 231, 159);
+        width: 70%;
+        top: 40px;
+        position: relative;
+        margin-left: 4rem;
+        border: none;
+    } */
+}
