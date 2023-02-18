@@ -326,8 +326,9 @@ footer{
     .fact-carts {
         margin: 80px 20px;
         display: flex;
-        justify-content: center;
+        
         flex-direction: column;
+        align-items: center;
     }
     .fact-cart {
         padding: 30px 25px;
