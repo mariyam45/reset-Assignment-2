@@ -94,6 +94,24 @@
     gap: 40px;
     justify-content: space-around;
 }
+.v-line {
+    display: flex;
+
+}
+.v-line div{
+    background-color: rgb(255, 149, 1);
+    width: 4px;
+    margin-right: 8px;
+    transition: width .8s;
+}
+/* .v-line div:hover{
+    width: 30px;
+} */
+
+.features:hover .v-line div{
+    width:30px
+}
+
 .features-txts{
     padding-top: 20px;
 
@@ -153,9 +171,18 @@
     width: 180px;
     text-align: center;
     color: #727272;
+    transition: width 1s;
+    
 }
 .fact-cart h1{
     color: #424242;
+}
+
+hr{
+    margin-top: 4px;
+    height: 4px;
+    border: none;
+    background-color: #ffffff;
 }
 
 /* -------sponsor------ */
@@ -218,6 +245,20 @@ footer{
     background-color: rgb(255, 230, 199);
     margin: 0 150px;
     padding: 16px 0;
+}
+
+/* -------------facts hover-------- */
+.fact-cart:hover {
+    background-color: rgb(255, 243, 228);
+    padding: 30px 25px;
+    border-radius: 5px;
+    width: 280px;
+    
+    text-align: center;
+    color: #727272;
+
+    
+    
 }
 
 
